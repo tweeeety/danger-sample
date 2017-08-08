@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: v6.1.0
+  environment:
+    DANGER_GITHUB_API_TOKEN: your_token
+
+test:
+  override:
+    - npm run danger
